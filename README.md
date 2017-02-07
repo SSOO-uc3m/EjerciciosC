@@ -56,6 +56,7 @@ Recibe como argumento dos quebrados, realiza la división de los mismos y devuel
 *	`void reducir  (struct quebrado q);`
 
 Recibe como argumento un quebrado y lo reduce a su fracción canónica (ejem 15/6   pasaría a 5/2.)
+
 Realizar un fichero .h con las cabeceras de las funciones y un fichero .c con el código de las funciones sin incluir el programa principal. El programa principal deberá realizarse en el fichero mainquebrado.c
 
 ## Problema 5:
