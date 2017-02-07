@@ -1,6 +1,6 @@
 # EjerciciosC
 
-## Problema 2:
+## Problema 1:
 
 Escribe el programa “Hola mundo” que tienes en la transparencias de teoría, compila y ejecuta el mismo para familiarizarte con el entorno de trabajo de C.
 
