@@ -16,13 +16,14 @@ Realiza un programa C que solicite al usuario dos números, y muestre por pantal
 
 Lee un número por teclado y lo devuelve por referencia
 
-*	`int sumar (int a, int b);`
+* `int sumar (int a, int b);`
 
 Recibe dos números enteros y devuelve su suma
 
-*	`void dividir (int a, int b, int *coc, int *resto);`
+* `void dividir (int a, int b, int *coc, int *resto);`
 
-recibe dos números enteros y devuelve por referencia el cociente y el resto de la división de esos dos números enteros.
+Recibe dos números enteros y devuelve por referencia el cociente y el resto de la división de esos dos números enteros.
+
 El programa principal llamará a estas funciones e imprimirá por pantalla el resultado de realizar las operaciones suma y división.
 
 ## Problema 4:
