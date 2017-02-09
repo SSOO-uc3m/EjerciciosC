@@ -82,20 +82,20 @@ Roque
 
 no
 	
-   tiene
+tiene
  	
-   rabo
+rabo
 	
 	
-    porque
+porque
 	
-    Ramón
+Ramón
 	
-    Ramírez
+Ramírez
 	
-    se
+se
 	
-    lo 
+lo 
 	
 ha
 
