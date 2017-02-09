@@ -64,10 +64,15 @@ Realizar un fichero .h con las cabeceras de las funciones y un fichero .c con el
 Realizar un programa en C que lea por pantalla una cadena de caracteres y cuya ejecución tenga un resultado como el mostrado en el siguiente ejemplo:
 
 Escribe una cadena de caracteres:
+
 El perro de San Roque no tiene rabo porque Ramón Ramírez se lo ha cortado (esta es la frase que introduce el usuario)
+
 Mayúsculas: EL PERRO DE SAN ROQUE NO TIENE RABO PORQUE RAMON RAMIREZ SE LO HA CORTADO
+
 Minúsculas: el perro de san roque no tiene rabo porque ramón ramírez se lo ha cortado
+
 Palíndromo: Odatroc ah ol es zerímaR nónmaR euqrop obar eneit on euqoR naS ed orrep lE
+
 Palabras:
 
 El
