@@ -69,21 +69,38 @@ Mayúsculas: EL PERRO DE SAN ROQUE NO TIENE RABO PORQUE RAMON RAMIREZ SE LO HA C
 Minúsculas: el perro de san roque no tiene rabo porque ramón ramírez se lo ha cortado
 Palíndromo: Odatroc ah ol es zerímaR nónmaR euqrop obar eneit on euqoR naS ed orrep lE
 Palabras:
+
 El
+
 perro
+
 de 
+
 San
+
 Roque
+
 no
+
 	tiene
+	
 	rabo
+	
+	
 	porque
+	
 	Ramón
+	
 	Ramírez
+	
 	se
+	
 	lo 
+	
 ha
+
 cortado
+
 Número de r: 5
 
 	Se leerá en el programa principal la cadena de caracteres y se escribirán las siguientes funciones:
