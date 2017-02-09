@@ -81,20 +81,21 @@ San
 Roque
 
 no
-	tiene
 	
-	rabo
+   tiene
+ 	
+   rabo
 	
 	
-	porque
+    porque
 	
-	Ramón
+    Ramón
 	
-	Ramírez
+    Ramírez
 	
-	se
+    se
 	
-	lo 
+    lo 
 	
 ha
 
