@@ -3,8 +3,9 @@
 
 void leerQuebrado(struct quebrado * q){
 	int numerador, denominador;
-	scanf ("%d" ,&numerador);
-	scanf ("%d" ,&denominador);
+	char fraccion[10];
+	scanf("%s",fraccion);
+ 	sscanf(fraccion, "%d/%d", &numerador, &denominador);
 	q->numerador = numerador;
 	q->denominador = denominador;
 
@@ -18,39 +19,28 @@ int compararQuebrado(struct quebrado q1, struct quebrado q2){
 void casoDePrueba () {
 	struct quebrado quebrado1  = {0};
 	struct quebrado quebrado2  = {0};
-	struct quebrado sumaQuebrado = {0};
 	leerQuebrado(&quebrado1);
 	leerQuebrado(&quebrado2);
-	leerQuebrado(&sumaQuebrado);
 
-	//suma
-	
-	if (compararQuebrado(sumaQuebrado,suma(quebrado1,quebrado2)) < 1){
-		printf("Error suma\n");
-		imprimir(quebrado1);
-		imprimir(quebrado2);
-		imprimir(sumaQuebrado);
-		imprimir(suma(quebrado1,quebrado2));
+	imprimir(suma(quebrado1,quebrado2));
+	imprimir(resta(quebrado1,quebrado2));
+	imprimir(multiplicacion(quebrado1,quebrado2));
+	imprimir(division(quebrado1,quebrado2));
 
-	}
 
 }
-	
-
 
 
 int main()
 {
-	/*
-	struct quebrado quebrado1  = {3,8};
+	/*struct quebrado quebrado1  = {3,8};
 	struct quebrado quebrado2  = {1,2};
 	struct quebrado quebradoResult = {0};
 
 	printf("quebrado 1: ");
-	imprimir(quebrado1);
-
+		imprimir(quebrado1);
 	printf("quebrado 2: ");
-	imprimir(quebrado2);
+		imprimir(quebrado2);
 
 	quebradoResult = suma(quebrado1,quebrado2);
 	printf("suma: "); 
@@ -68,12 +58,9 @@ int main()
 	printf("div: "); 
 	imprimir(quebradoResult);*/
 
-	int numCasos ;
-	int i ;
-	scanf ("%d\n " , &numCasos ) ;
-	for(i=0;i<1;i++)
-		casoDePrueba();
-
+	casoDePrueba ();
 
     return 0;
 }
+
+

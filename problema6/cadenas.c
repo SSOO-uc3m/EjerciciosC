@@ -31,6 +31,7 @@ char * copyString (char * string){
 
 }
 //pasa a minúsculas todos los caracteres de la cadena
+//TODO
 char * lowerCase(char * string){
 
 	char * sLowerCase;
@@ -41,12 +42,14 @@ char * lowerCase(char * string){
 
 }
 //realiza el palíndromo de la cadena de caracteres (escribe todos los caracteres al revés)
+//TODO
 char * palindrome(char * string){
 	char * sPalindrome;
 	sPalindrome = copyString(string);
 	return sPalindrome;
 }
 //escribe una palabra por línea.
+//TODO
 void writeWords(char * string){
 	
 }
