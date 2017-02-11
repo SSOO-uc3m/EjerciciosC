@@ -1,4 +1,5 @@
 #ifndef _quebrado_h
+#define _quebrado_h
 
 struct quebrado{
 	int numerador;
