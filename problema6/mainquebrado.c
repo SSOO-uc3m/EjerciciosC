@@ -3,8 +3,10 @@
 
 void mostrarMenu();
 void leerQuebrado(struct quebrado * q);
-void guardarSumaQuebrados(struct quebrado * p, struct quebrado *q);
+void guardarSumaQuebradosf(struct quebrado * p, struct quebrado *q);
+void guardarSumaQuebrados(struct quebrado * p, struct quebrado * q);
 
+char * FICHERO = "quebrados";
 
 int main()
 {
@@ -32,19 +34,30 @@ int main()
     		}
   		}
 	}while (op != 's');
+
+  leerQuebrados(FICHERO);
 //system ("pause");
 
 
     return 0;
 }
 
-void guardarSumaQuebrados(struct quebrado * p, struct quebrado * q){
-  char * file = "quebrados";
+void guardarSumaQuebradosf(struct quebrado * p, struct quebrado * q){
+  
   struct quebrado sumaQuebrado = suma(*p,*q);  
-  escribirQuebrado(file,p);
-  escribirQuebrado(file,q);
-  escribirQuebrado(file,&sumaQuebrado);
+  escribirQuebradof(FICHERO,p);
+  escribirQuebradof(FICHERO,q);
+  escribirQuebradof(FICHERO,&sumaQuebrado);
 }
+
+void guardarSumaQuebrados(struct quebrado * p, struct quebrado * q){
+  
+  struct quebrado sumaQuebrado = suma(*p,*q);  
+  escribirQuebrado(FICHERO,p);
+  escribirQuebrado(FICHERO,q);
+  escribirQuebrado(FICHERO,&sumaQuebrado);
+}
+
 
 void leerQuebrado(struct quebrado * q){
 	int numerador, denominador;
