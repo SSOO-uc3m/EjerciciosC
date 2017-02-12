@@ -77,7 +77,7 @@ void writeWords(char * string){
   char * delim = " ,.-()";
   // divide un string en una serie de tokens usando el delimitador delim.
   token = strtok (string,delim);
-  printf("Palabras: \n")
+  printf("Palabras: \n");
   while (token != NULL)
   {
     printf ("%s\n",token);
