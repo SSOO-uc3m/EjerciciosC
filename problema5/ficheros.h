@@ -2,15 +2,30 @@
 #include <stdio.h>
 
 // abre un fichero
-FILE * open(char * name);
+FILE * abrirf(char * fichero);
 
 // cierra fichero
-int close(FILE * file);
+int cerrarf(FILE * descfich);
 
 // lee fichero texto
-char * read(char * file);
+char * leerf(char * fichero);
 
 // tamaño del fichero
-int size(FILE * file);
+int tamagnof(FILE * descfich);
+
+// Con llamadas al sistema (SYSCALLS)
+
+// abre un fichero 
+int abrir(char * fichero);
+
+// cierra fichero 
+int cerrar(int descfich);
+
+// lee fichero texto 
+char * leer(char * fichero);
+
+// tamaño del fichero
+int tamagno(int descfich);
+
 
 #endif

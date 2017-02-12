@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	sFile = argv[1];
 	printf("leyendo %s\n",sFile);
 
-	sText = read(sFile);
+	sText = leer(sFile);
 	sUpperText = upperCase(sText);
 	sLowerText = lowerCase(sText);
 	sPalindrome = palindrome(sText);
