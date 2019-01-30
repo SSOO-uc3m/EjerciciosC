@@ -59,7 +59,7 @@ Recibe como argumento un quebrado y lo reduce a su fracción canónica (ejem 15/
 
 Realizar un fichero .h con las cabeceras de las funciones y un fichero .c con el código de las funciones sin incluir el programa principal. El programa principal deberá realizarse en el fichero mainquebrado.c
 
-## Problema 5:
+## Problema 5:
 
 Realizar un programa en C que lea por pantalla una cadena de caracteres y cuya ejecución tenga un resultado como el mostrado en el siguiente ejemplo:
 
@@ -114,7 +114,7 @@ Número de r: 5
 *	Una función que realice el palíndromo de la cadena de caracteres (escribe todos los caracteres al revés)
 *	Una función que escriba una palabra por línea.
 
-## Problema 6:
+## Problema 6:
 
 Realizar un programa que utilizando las funciones de quebrados del ejercicio anterior permita pedir pares de quebrados por pantalla (hasta que el usuario no desee introducir más) y almacenen en un fichero los pares de quebrados recibidos y la suma de cada par.
 
